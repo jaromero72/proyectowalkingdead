@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+   background:black;
+   
+}
+.lista{
+    display:flex;
+    list-style: none;
+   
+}
+#navbarNav{
+    justify-content: center;
+}
