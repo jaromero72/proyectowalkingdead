@@ -6,11 +6,36 @@ header{
    background:black;
    
 }
-.lista{
-    display:flex;
+
+
+
+.nav__item_red_social{
     list-style: none;
+ 
+}
+
+.nav__Logo_RedSocial{
+    margin-right: 4px;
+}
+.nav__cont_nav{
+    background-color:#0D0A05;
    
 }
-#navbarNav{
-    justify-content: center;
+
+.nav__items{
+    color: blanchedalmond;
+border-right: 1px solid #FAFAFA;
+display: block;
+padding: .5rem 1rem;
+}
+
+.nav__items:hover{
+    background:#950C2B;
+    color: seashell;
+    text-decoration: none;
+}
+
+.nav__icon{
+    width: 100%;
+  
 }
