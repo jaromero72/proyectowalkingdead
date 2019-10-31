@@ -4,12 +4,13 @@
 }
 header{
    background:black;
-   
+   text-decoration: none;
 }
 
 
 
 .nav__item_red_social{
+    margin-top: 9px;
     list-style: none;
  
 }
@@ -18,12 +19,13 @@ header{
     margin-right: 4px;
 }
 .nav__cont_nav{
-    background-color:#0D0A05;
+    background-color: #0D0A05;
+    border-top: 1px solid #ffffff1f; 
    
 }
 
 .nav__items{
-    color: blanchedalmond;
+color: blanchedalmond;
 border-right: 1px solid #FAFAFA;
 display: block;
 padding: .5rem 1rem;
@@ -33,14 +35,25 @@ padding: .5rem 1rem;
     background:#950C2B;
     color: seashell;
     text-decoration: none;
+    font-style: oblique;
 }
 
 .nav__icon{
     width: 100%;
   
 }
-#navbarNav{
-    justify-content: center;
+.nav__boton_menu:hover{
+
+    border-color: seashell;
+    background: #83190599;
+}
+
+.nav__icono_menu{
+    width: 100%;
+    }
+
+.nav__link_form{
+margin-right: 10px;
 }
 
 
@@ -55,3 +68,5 @@ padding: .5rem 1rem;
     width: 100%;
     
 }
+
+
