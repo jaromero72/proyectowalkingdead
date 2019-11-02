@@ -5,6 +5,8 @@
 header{
    background:black;
    text-decoration: none;
+   display: flex;
+   flex: 1;
 }
 
 
