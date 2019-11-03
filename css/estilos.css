@@ -7,10 +7,9 @@ header{
    position: relative;
    background:url('/img/fondoheader.png') no-repeat;
    height: 200px;
- 
    text-decoration: none;
    display: flex;
-   flex: 1;
+   flex:1;
 }
 .redes__header{
     width: 75%;
@@ -30,8 +29,6 @@ ul.redes__header{
 .form__header{
     margin: 5px;
    
-    
-
 }
 .boton__header{
     margin: 5px;
@@ -45,7 +42,6 @@ ul.redes__header{
     border-top: 1px solid #ffffff1f; 
    
 }
-
 .nav__items{
 color: blanchedalmond;
 border-right: 1px solid #FAFAFA;
