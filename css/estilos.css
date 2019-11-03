@@ -3,19 +3,40 @@
     padding: 0px;
 }
 header{
-   background:black;
+   width: 100%;
+   position: relative;
+   background:url('/img/fondoheader.png') no-repeat;
+   height: 200px;
+ 
    text-decoration: none;
    display: flex;
    flex: 1;
 }
-
-
+.redes__header{
+    width: 75%;
+    display: flex;
+    list-style: none;
+    
+    justify-content: space-between;
+}
+ul.redes__header{
+ color: white;
+}
 .nav__item_red_social{
     margin-top: 9px;
     list-style: none;
  
 }
+.form__header{
+    margin: 5px;
+   
+    
 
+}
+.boton__header{
+    margin: 5px;
+    
+}
 .nav__Logo_RedSocial{
     margin-right: 4px;
 }
