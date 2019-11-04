@@ -44,16 +44,18 @@ ul.redes__header{
 }
 .nav__items{
 color: blanchedalmond;
-border-right: 1px solid #FAFAFA;
+border-right: 1px solid #fafafa61;
 display: block;
 padding: .5rem 1rem;
 }
+
 
 .nav__items:hover{
     background:#950C2B;
     color: seashell;
     text-decoration: none;
     font-style: oblique;
+    transition-duration: 1s;
 }
 
 .nav__icon{
@@ -64,6 +66,7 @@ padding: .5rem 1rem;
 
     border-color: seashell;
     background: #83190599;
+    transition-duration: 1s;
 }
 
 .nav__icono_menu{
@@ -75,4 +78,62 @@ margin-right: 10px;
 }
     
 
+/* FOOTER */
 
+.footer__cont{
+    background-color: black;
+    background-image: url(/img/base\ logo\ twd.png);
+}
+.footer__titulo{
+    color: blanchedalmond;
+}
+.footer__text_legales{
+color: blanchedalmond;
+}
+.footer_cont_opc{
+    border-right: 1px solid white;
+}
+.footer_link_opc{
+    padding: 2px;
+    text-decoration: none;
+    color: white;
+    margin-right: 2%;
+}
+
+.footer_link_opc:hover{
+    transition: 2s;
+    color: red;
+    text-decoration: none;
+}
+
+.footer__lista{
+ list-style: none;
+ width: 60%;
+}
+@media screen and (max-width:576px){
+
+ 
+    .footer_link_opc{
+        padding: 2px;
+        text-decoration: none;
+        color: white;
+        margin-right: 2%;
+        font-size: 0.8rem;
+    }
+
+    .footer__text_legales{
+        color: blanchedalmond;
+        font-size: 0.9rem;
+        }
+ 
+        .footer__titulo{
+            color: blanchedalmond;
+            font-size: 0.8rem;
+          
+        }
+
+        .footer__lista{
+            list-style: none;
+            width: 75%;
+           }
+}
