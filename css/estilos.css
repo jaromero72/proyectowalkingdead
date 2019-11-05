@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
+
 header{
    width: 100%;
    position: relative;
@@ -26,6 +27,25 @@ ul.redes__header{
     list-style: none;
  
 }
+
+.footer__icono_facebook:hover{
+    background: red;
+    border-radius: 100%;
+}
+
+.footer__icono_twiter:hover{
+    background: red;
+    border-radius: 100%;
+}
+.footer__icono_youtube:hover{
+    background: red;
+    border-radius: 100%;
+}
+
+.footer__icono_instagram:hover{
+    background: red;
+    border-radius: 100%;
+}
 .form__header{
     margin: 5px;
    
@@ -34,6 +54,92 @@ ul.redes__header{
     margin: 5px;
     
 }
+
+
+.carrousel__boton:hover{
+    background: #ff000094;
+    color: white;
+
+}
+
+
+.carrousel__boton{
+    display: inline-block;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: gray;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+
+@media screen and (min-width:576px){
+
+/* carousel */
+
+.carrousel__target{
+    width: 100%;
+}
+
+.carrousel__target__cont__1{
+    width: 10% !important;
+    height: 70px!important;
+ background-color: transparent !important;
+
+}
+.carrousel__target__cont__2{
+    width: 10% !important;
+    height: 70px!important;
+ background-color: transparent !important;
+}
+.carrousel__target__cont__3{
+    width: 10% !important;
+    height: 70px!important;
+ background-color: transparent !important;
+}
+
+.carrouse__marg_text{
+  margin-bottom: 20px;
+}
+.carrouse__subtitle_items{
+    margin-bottom: 60px; 
+}
+
+.carrousel__boton{
+    margin-bottom: 70px;
+    display: inline-block;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: gray;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+
+}
+}
+
+.carrousel__pasar_sig:hover{
+
+    background: #ff00001c;
+}
+
+/* fin carrousel */
 .nav__Logo_RedSocial{
     margin-right: 4px;
 }
@@ -82,13 +188,13 @@ margin-right: 10px;
 
 .footer__cont{
     background-color: black;
-    background-image: url(/img/base\ logo\ twd.png);
+    background-image: url(/img/Footer__fondo01.jpg);
 }
 .footer__titulo{
-    color: blanchedalmond;
+    color: white;
 }
 .footer__text_legales{
-color: blanchedalmond;
+color: white;
 }
 .footer_cont_opc{
     border-right: 1px solid white;
@@ -112,7 +218,12 @@ color: blanchedalmond;
 }
 @media screen and (max-width:576px){
 
- 
+    .footer__cont{
+        background-color: black;
+        background-image: url(/img/base\ logo\ twd.png);
+        background-position: right;
+    }
+
     .footer_link_opc{
         padding: 2px;
         text-decoration: none;
@@ -134,6 +245,9 @@ color: blanchedalmond;
 
         .footer__lista{
             list-style: none;
-            width: 75%;
+            width: 65%;
            }
+
+
+      
 }
