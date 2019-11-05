@@ -16,16 +16,22 @@ header{
     width: 75%;
     display: flex;
     list-style: none;
-    
     justify-content: space-between;
+    transition: .5s ease;
+    
 }
-ul.redes__header{
- color: white;
+
+ul.redes__header li:hover{
+ background: red;
+ border-radius: 100%;
+ 
 }
 .nav__item_red_social{
+    background: silver;
     margin-top: 9px;
     list-style: none;
- 
+   
+   
 }
 
 .footer__icono_facebook:hover{
@@ -142,6 +148,13 @@ ul.redes__header{
 /* fin carrousel */
 .nav__Logo_RedSocial{
     margin-right: 4px;
+    background:whitesmoke;
+    border-radius: 100%;
+}
+.nav__Logo_RedSocial:hover{
+    background: maroon;
+    transition: .3s ease;
+    
 }
 .nav__cont_nav{
     background-color: #0D0A05;
