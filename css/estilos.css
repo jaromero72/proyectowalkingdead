@@ -227,13 +227,13 @@ color: white;
 .footer_cont_opc{
     border-right: 1px solid white;
     
+    
 }
 .footer_link_opc{
     padding: 2px;
     text-decoration: none;
     color: white;
-    margin-right: 2%;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
 }
 
 .footer_link_opc:hover{
@@ -245,8 +245,8 @@ color: white;
 }
 
 .footer__lista{
- list-style: none;
- width: 60%;
+    list-style: none;
+    width: 100%;
 }
 
 
@@ -290,9 +290,17 @@ color: white;
         padding: 2px;
         text-decoration: none;
         color: white;
-        margin-right: 3%;
-        font-size: 1.3rem;
+        font-size: 0.9rem;
     }
+
+    .footer_link_opc:hover{
+   
+        transition: 1s ease;
+        text-decoration: none;
+        background: #ffffffad;
+        color: #c92323;
+    }
+    
 
     .footer__text_legales{
         color: blanchedalmond;
@@ -305,6 +313,7 @@ color: white;
           
         }
 
+        
         .footer__lista{
             list-style: none;
             width: 65%;
