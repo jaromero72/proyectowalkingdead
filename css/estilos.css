@@ -27,9 +27,9 @@ ul.redes__header li:hover{
  
 }
 .nav__item_red_social{
-    background: silver;
     margin-top: 9px;
     list-style: none;
+    background: transparent;
    
    
 }
@@ -148,7 +148,6 @@ ul.redes__header li:hover{
 /* fin carrousel */
 .nav__Logo_RedSocial{
     margin-right: 4px;
-    background:whitesmoke;
     border-radius: 100%;
 }
 .nav__Logo_RedSocial:hover{
@@ -211,6 +210,7 @@ color: white;
 }
 .footer_cont_opc{
     border-right: 1px solid white;
+    
 }
 .footer_link_opc{
     padding: 2px;
