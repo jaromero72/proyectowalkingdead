@@ -3,6 +3,7 @@
     padding: 0px;
 }
 
+/* Header INCIO */
 header{
    width: 100%;
    position: relative;
@@ -23,25 +24,11 @@ header{
 }
 
 ul.redes__header li:hover{
- background: red;
- border-radius: 100%;
+    background: maroon;
+    transition: 1s ease;
+    border-radius: 100%;
  
 }
-.nav__item_red_social{
-    margin-top: 9px;
-    list-style: none;
-    background: transparent;
-   
-   
-}
-.footer__iconos{
-    width: 80%;
-}
-.footer__iconos:hover{
-    background: red;
-    border-radius: 100%;
-}
-
 
 .form__header{
     margin: 5px;
@@ -52,7 +39,88 @@ ul.redes__header li:hover{
     
 }
 
+/* Header FIN */
 
+/* nav INICIO */
+.nav__item_red_social{
+    margin-top: 9px;
+    list-style: none;
+    background: transparent;
+   
+   
+}
+.nav__iconos_red_social{
+    width: 80%;
+    border-radius: 100%;
+}
+.nav__iconos_red_social:hover{
+    background: maroon;
+    transition: 1s ease;
+    border-radius: 100%;
+}
+
+.nav__Logo_RedSocial{
+    margin-right: 4px;
+    border-radius: 100%;
+}
+.nav__Logo_RedSocial:hover{
+    background: maroon;
+    transition: .3s ease;
+    border-radius: 100%;
+}
+.nav__cont_nav{
+    background-color: #0D0A05;
+    border-top: 1px solid #ffffff1f; 
+   
+}
+.nav__items{
+color: blanchedalmond;
+border-right: 1px solid #fafafa61;
+display: block;
+padding: .5rem 1rem;
+}
+
+
+.nav__items:hover{
+    background:#950C2B;
+    color: seashell;
+    text-decoration: none;
+    transition-duration: .5s;
+}
+
+.nav__icon{
+    width: 100%;
+  
+}
+.nav__boton_menu:hover{
+
+    border-color: seashell;
+    background: #83190599;
+    transition-duration: 1s ease;
+}
+.nav__iconos_red_social{
+width: 65%;
+}
+
+.nav__iconos_red_social:hover{
+    background: maroon;
+    transition: 1s ease;
+    border-radius: 100%;
+}
+.nav__icono_menu{
+    width: 100%;
+    }
+
+.nav__link_form{
+margin-right: 10px;
+}
+    
+
+/* Nav FIN */
+
+
+
+/* carousel */
 .carrousel__boton:hover{
     background: #ff000094;
     color: white;
@@ -78,9 +146,11 @@ ul.redes__header li:hover{
     border-radius: .25rem;
 }
 
+
+/* CSS ESCRITORIO INICIO */
 @media screen and (min-width:576px){
 
-/* carousel */
+
 
 .carrousel__target{
     width: 100%;
@@ -131,74 +201,22 @@ ul.redes__header li:hover{
 }
 }
 
+/* CSS ESCRITORIO FIN */
+
 .carrousel__pasar_sig:hover{
 
     background: #ff00001c;
 }
 
 /* fin carrousel */
-.nav__Logo_RedSocial{
-    margin-right: 4px;
-    border-radius: 100%;
-}
-.nav__Logo_RedSocial:hover{
-    background: maroon;
-    transition: .3s ease;
-   
-}
-.nav__cont_nav{
-    background-color: #0D0A05;
-    border-top: 1px solid #ffffff1f; 
-   
-}
-.nav__items{
-color: blanchedalmond;
-border-right: 1px solid #fafafa61;
-display: block;
-padding: .5rem 1rem;
-}
 
-
-.nav__items:hover{
-    background:#950C2B;
-    color: seashell;
-    text-decoration: none;
-    font-style: oblique;
-    transition-duration: 1s;
-}
-
-.nav__icon{
-    width: 100%;
-  
-}
-.nav__boton_menu:hover{
-
-    border-color: seashell;
-    background: #83190599;
-    transition-duration: 1s;
-}
-.nav__iconos_red_social{
-width: 65%;
-}
-
-.nav__iconos_red_social:hover{
-    background: red;
-    border-radius: 100%;
-}
-.nav__icono_menu{
-    width: 100%;
-    }
-
-.nav__link_form{
-margin-right: 10px;
-}
-    
 
 /* FOOTER */
 
 .footer__cont{
     background-color: black;
     background-image: url(/img/Footer__fondo01.jpg);
+    padding: 15px !important;
 }
 .footer__titulo{
     color: white;
@@ -215,13 +233,15 @@ color: white;
     text-decoration: none;
     color: white;
     margin-right: 2%;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .footer_link_opc:hover{
-    transition: 2s;
-    color: red;
+   
+    transition: 1s ease;
     text-decoration: none;
+    background: #83160a54;
+    color: white;
 }
 
 .footer__lista{
@@ -232,29 +252,45 @@ color: white;
 
 
 .footer__Logo_RedSocial{
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+ 
+}
 
-    margin-right: 4px;
+.footer__iconos{
+    width: 70%;
+}
+
+.footer__iconos:hover{
+    background: maroon;
+    transition: 1s ease;
     border-radius: 100%;
 }
-.footer__Logo_RedSocial:hover{
-    background: maroon;
-    transition: .3s ease;
-    
+
+.footer__item_red_social{
+    margin-top: 9px;
+    list-style: none;
+    background: transparent;
+    text-decoration: none; 
 }
 
+/* CSS MOVIL INICIO*/
 @media screen and (max-width:576px){
 
     .footer__cont{
         background-color: black;
         background-image: url(/img/base\ logo\ twd.png);
-        background-position: right;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 10px !important;
     }
 
     .footer_link_opc{
         padding: 2px;
         text-decoration: none;
         color: white;
-        margin-right: 2%;
+        margin-right: 3%;
         font-size: 1.3rem;
     }
 
@@ -274,6 +310,13 @@ color: white;
             width: 65%;
            }
 
-
-      
+        
+           .footer__iconos{
+            width: 80%;
+            
+        }
+        
+        
 }
+
+/* CSS MOVIL FIN*/
