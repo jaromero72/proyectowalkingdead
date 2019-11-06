@@ -6,7 +6,8 @@
 header{
    width: 100%;
    position: relative;
-   background:url('/img/fondoheader.png') no-repeat;
+   background:url('/img/fondoheader.png') no-repeat center;
+   background-color: black;
    height: 200px;
    text-decoration: none;
    display: flex;
@@ -33,25 +34,15 @@ ul.redes__header li:hover{
    
    
 }
-
-.footer__icono_facebook:hover{
+.footer__iconos{
+    width: 80%;
+}
+.footer__iconos:hover{
     background: red;
     border-radius: 100%;
 }
 
-.footer__icono_twiter:hover{
-    background: red;
-    border-radius: 100%;
-}
-.footer__icono_youtube:hover{
-    background: red;
-    border-radius: 100%;
-}
 
-.footer__icono_instagram:hover{
-    background: red;
-    border-radius: 100%;
-}
 .form__header{
     margin: 5px;
    
@@ -153,7 +144,7 @@ ul.redes__header li:hover{
 .nav__Logo_RedSocial:hover{
     background: maroon;
     transition: .3s ease;
-    
+   
 }
 .nav__cont_nav{
     background-color: #0D0A05;
@@ -186,7 +177,14 @@ padding: .5rem 1rem;
     background: #83190599;
     transition-duration: 1s;
 }
+.nav__iconos_red_social{
+width: 65%;
+}
 
+.nav__iconos_red_social:hover{
+    background: red;
+    border-radius: 100%;
+}
 .nav__icono_menu{
     width: 100%;
     }
@@ -217,6 +215,7 @@ color: white;
     text-decoration: none;
     color: white;
     margin-right: 2%;
+    font-size: 1.3rem;
 }
 
 .footer_link_opc:hover{
@@ -229,6 +228,20 @@ color: white;
  list-style: none;
  width: 60%;
 }
+
+
+
+.footer__Logo_RedSocial{
+
+    margin-right: 4px;
+    border-radius: 100%;
+}
+.footer__Logo_RedSocial:hover{
+    background: maroon;
+    transition: .3s ease;
+    
+}
+
 @media screen and (max-width:576px){
 
     .footer__cont{
@@ -242,7 +255,7 @@ color: white;
         text-decoration: none;
         color: white;
         margin-right: 2%;
-        font-size: 0.8rem;
+        font-size: 1.3rem;
     }
 
     .footer__text_legales{
