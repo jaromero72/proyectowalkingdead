@@ -50,40 +50,48 @@
     </button>
     <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
       <ul class="navbar-nav">
+
         <div class="row align-self-center d-flex d-sm-none">
-          <a class="nav__link_form" href="">LOG IN</a>
-          <a class="nav__link_form" href=""> SIGN UP</a>
+          <a class="nav-item nav__link_form" href="">LOG IN</a>
+          <a class="nav-item nav__link_form" href=""> SIGN UP</a>
         </div>
 
 
-        <li class="nav-item">
-          <a class="nav__items" href="#section1">HOME</a>
+        <li class="nav-item" data-toggle="collapse" data-target="#navbarNav">
+
+          <a class="nav__items" href="#nav" >HOME</a>
         </li>
+
         <li class="nav-item">
           <a class="nav__items" href="#">Galeria de Videos</a>
         </li>
+
         <li class="nav-item">
           <a class="nav__items" href="#">Galeria de Fotos</a>
         </li>
-        <li class="nav-item">
+
+        <li class="nav-item" data-toggle="collapse" data-target="#navbarNav">
           <a class="nav__items" href="#carousel__noticias">Noticias</a>
         </li>
+
         <li class="nav-item">
           <a class="nav__items" href="#">Curiosidades</a>
         </li>
+
         <li class="nav-item">
           <a class="nav__items" href="#">Quienes somos?</a>
         </li>
+
         <li class="nav-item">
           <a class="nav__items" href="#">Contactenos</a>
         </li>
       </ul>
       <div class="col d-flex d-sm-none justify-content-center">
         <ul class="nav__item_red_social d-flex">
-          <li><a class="nav__Logo_RedSocial" href="https://wwww.facebook.com"><img class="nav__iconos_red_social" src="img/facebookblanco64.png" alt=""></a></li>
-          <li><a class="nav__Logo_RedSocial" href="https://www.youtube.com"><img class="nav__iconos_red_social" src="img/youtubeblanco64.png" alt=""></a></li>
-          <li><a class="nav__Logo_RedSocial" href="https://twitter.com"><img class="nav__iconos_red_social" src="/img/twitterblanco64.png" alt=""></a></li>
-          <li><a class="nav__Logo_RedSocial" href="https://instagram.com"><img class="nav__iconos_red_social" src="/img/instagramblanco64.png" alt=""></a></li>
+          <li><a class="nav__Logo_RedSocial" href="https://wwww.facebook.com" target="_blank"><img class="nav__iconos_red_social" src="img/facebookblanco64.png" alt=""></a></li>
+          <li><a class="nav__Logo_RedSocial" href="https://www.youtube.com" target="_blank"><img class="nav__iconos_red_social" src="img/youtubeblanco64.png" alt=""></a></li>
+          <li><a class="nav__Logo_RedSocial" href="https://twitter.com" target="_blank"><img class="nav__iconos_red_social" src="/img/twitterblanco64.png" alt=""></a></li>
+          <li><a class="nav__Logo_RedSocial" href="https://instagram.com" target="_blank"><img class="nav__iconos_red_social" src="/img/instagramblanco64.png" alt=""></a></li>
         </ul>
       </div>
     </div>
@@ -156,13 +164,14 @@
                   <div class="card card__noticias_cont">
                       <img src="/img/Tarjeta_noticia_01.jpeg" class="card-img-top" alt="...">
                       <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary card__btn">Go somewhere</a>
+                        <h5 class="card-title">The Walking Dead - Juego</h5>
+                        <p class="card-text">[Rumor] Un reporte sugiere que Telltale Games no terminará The Walking Dead Final Season.</p>
+
+                        <!-- Button trigger modal -->
+                        <a href="#" class="btn btn-primary card__btn" data-toggle="modal" data-target="#modal__art01"> Mas informacion  </a>
                       </div>
                    </div>
-    
-                  
+
   
                     <div class="card card__noticias_cont d-none d-md-flex d-xl-flex ">
                         <img src="/img/Tarjeta_noticia_02.jpg" class="card-img-top" alt="...">
@@ -307,6 +316,42 @@
 
     <!--Fin carousel section Noticias-->
 
+  <!-- Modal INICIO-->
+    
+
+<!-- Modal -->
+<div class="modal fade" id="modal__art01" tabindex="-1" role="dialog" aria-labelledby="modal__art01_scroll" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content Modal__cont_art01">
+        <div class="modal-header Modal__title_art01">
+  
+          <h5 id="modal__art01__scroll">The Walking Dead el Juego - Episodio 1: "Un Nuevo Dia" - Sub español - Full HD</h5>
+        </div>
+  
+        <div class="modal-body container modal__art01__body">
+       
+            <div class="Modal__cont_img_art01 col-12"><img class="Modal__img_art01" src="/img/Noticias_foto_de_Art01.jpg" alt=""></div>
+          
+          <div class="Modal__cont_txt_art01 col-12">
+            <p>Hace unas horas compartimos con vosotros la triste noticia de que el popular estudio de videojuegos Telltale Games había comenzado a realizar despidos masivos dentro de la empresa, y posteriormente anunció el cierre definitivo a través de un blog oficial.
+              El medio UsGamer ha publicado recientemente un artículo en el que, basándose en sus fuentes que han preferido mantenerse anónimas, afirma que Telltale Games no tiene pensando terminar varios de sus proyectos, incluyendo The Walking Dead Final Season. 
+                Como ya os informamos, el segundo episodio del popular The Walking Dead: The Final Season estaba pautado para un lanzamiento el 25 de septiembre, y aunque es posible que este capítulo individual llegue, los nuevos rumores apuntan a que el equipo encargado del desarrollo de The Walking Dead ya ha abandonado la empresa.</p>
+            
+            
+          </div>
+
+  
+        </div>
+  
+        <div class="modal-footer container d-flex justify-content-center">
+          <button type="button" class="btn btn-secondary Modal__btn_art01" data-dismiss="modal"> Close </button>
+      
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Modal FIN -->
 
   <!-- inicio Footer -->
 <footer class="container-fluid footer__cont">
