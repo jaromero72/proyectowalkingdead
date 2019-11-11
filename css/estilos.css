@@ -146,33 +146,27 @@ margin-right: 10px;
 /* CSS ESCRITORIO INICIO */
 @media screen and (min-width:576px){
 
+/* Nav en escritorios inicio*/
+
     .nav__cont_nav{
         background-color: #0D0A05;
         border-top: 1px solid #ffffff1f; 
        
     }
+/* Nav en escritorios fin*/
 
-
+/* carrousel section01 inicio*/
 .carrousel__target{
     width: 100%;
 }
 
-.carrousel__target__cont__1{
+.carrousel__section01_cont_item{
     width: 10% !important;
     height: 70px!important;
  background-color: transparent !important;
 
 }
-.carrousel__target__cont__2{
-    width: 10% !important;
-    height: 70px!important;
- background-color: transparent !important;
-}
-.carrousel__target__cont__3{
-    width: 10% !important;
-    height: 70px!important;
- background-color: transparent !important;
-}
+
 
 .carrouse__marg_text{
   margin-bottom: 20px;
@@ -213,19 +207,20 @@ margin-right: 10px;
     border: 1px solid maroon !important;
     
 }
+/* carrousel section01 fin*/
 
+/* carrousel noticias inicio */
 .card__noticias_cont:hover{
     transform: scale(1.1);
     padding: 20px 0px;
     transition: 0.5s ease;
 }
 
-.title_section__img{
-    width: 45%;
-}
 
 
-   /* TITULOS DE SECTION */
+/* carrousel noticias fin */ 
+
+   /* TITULOS DE SECTION inicio */
    .title_section__cont{
 
     background: transparent;
@@ -233,8 +228,10 @@ margin-right: 10px;
     justify-content: center;
     align-self: center;
     color:white;
-    
-    
+    }
+
+    .title_section__img{
+        width: 45%;
     }
     
     
@@ -244,6 +241,8 @@ margin-right: 10px;
         background: #0000009e;
     }
 
+    /* TITULOS DE SECTION fin */
+
     /* modal escritorio INICIO */
 
     .Modal__cont_img_art01{
@@ -252,7 +251,6 @@ margin-right: 10px;
       .Modal__cont_art01{
         width: 100%;
         border-radius: 15px;
-        /* box-shadow: inset -1px -1px 5px 2px #3170aa; */
         overflow: auto;
         margin: 1% auto;
         text-align: justify;
@@ -296,14 +294,37 @@ margin-right: 10px;
       
         .Modal__img_art01{
   
-            width:100%;
-        
-            /* padding: 5px; */
-            
-            /* border: 1px groove gray; */
-            
+            width:100%;           
           }
     /* modal escitorio FIN */
+
+/* carrousel galeria de fotos inicio */
+
+.card__foto{
+    background: #12121240 !important;
+    margin: 5px;
+    padding: 4px;
+    border: 1px groove #050505 !important;
+    box-shadow: 0px -1px 0px 3px #56574f9e;
+    overflow: hidden;
+  
+}
+
+.card__foto:hover{
+    background: #8000006c !important;
+    border: 0px solid maroon !important;
+    text-decoration: none !important;
+    margin: 0px;
+    padding: 0px;
+    transition-duration: 1s;
+  
+}
+
+.G_fotos__title_foto{
+
+text-decoration: none !important;
+color: blanchedalmond;
+
 }
 
 
@@ -385,13 +406,16 @@ color: white;
 /* CSS MOVIL INICIO*/
 @media screen and (max-width:576px){
 
-
+/* nav en movil inicio */
     .nav__cont_nav{
         background-color: #0D0A05;
         border-top: 1px solid #ffffff1f; 
        
     }
 
+/* nav en movil fin */
+
+/* footer en movil inicio */
     .footer__cont{
         background-color: black;
         background-image: url(/img/base\ logo\ twd.png);
@@ -438,19 +462,13 @@ color: white;
             width: 80%;
             
         }
-        
-        .card__noticias_cont{
-            width: 100% !important;
-            margin: 5px 0;
-        }
 
-        .card__btn{
-            background: maroon !important;
-            border: 1px solid maroon !important;
-          
-        }
+/* footer en movil fin */
         
-   /* TITULOS DE SECTION */
+
+      
+        
+   /* TITULOS DE SECTION inicio */
 .title_section__cont{
 
     background: transparent;
@@ -469,7 +487,9 @@ color: white;
         background: #0000009e;
     }
 
-    /* inicio modal movil */
+     /* TITULOS DE SECTION FIN */
+
+   /* Inicio modal noticias movil */   
 
     .Modal__cont_img_art01{
         width: 100% !important;
@@ -477,7 +497,6 @@ color: white;
 
       .Modal__cont_art01{
         width: 100% !important;
-        /* box-shadow: inset -1px -1px 5px 2px #3170aa; */
         overflow: auto;
         text-align: justify;
         color: white;
@@ -515,19 +534,32 @@ color: white;
   .Modal__img_art01{
   
     width: 100%;
-
-    /* padding: 5px; */
     box-sizing: border-box;
-    /* border: 1px groove gray; */
-    
+     
   }
-    /* Fin modal movil */    
-}
+    /* Fin modal noticias movil */   
 
-/* CSS MOVIL FIN*/
+    /* card carraousel noticias inicio*/
 
-/* CSS Noticias */
+    .card__noticias_cont{
+        width: 100% !important;
+        margin: 5px 0;
+    }
 
+    .card__btn{
+        background: maroon !important;
+        border: 1px solid maroon !important;
+      
+    }
+  /* card carraousel noticias fin*/
+
+} /* CSS MOVIL FIN*/
+
+
+
+/* CSS  default carrousel Noticias inicio */
+
+/* cards noticias inicio */
 .card__noticias_cont{
     width: 24%;
     margin: 5px 0;
@@ -543,14 +575,11 @@ color: white;
     background-image: url(/img/fondo_Noticias01.jpg);
     background-position: center;
 }
+/* cards noticias fin */
 
+/* CSS default carrousel Noticias FIN */
 
-/* MODAL Articulo 01 - INICIO */
-
-
-  
-
-
+/* MODAL default Articulo 01 - INICIO */
 
   #titulo_art{
     font-size: 30px;
@@ -569,4 +598,26 @@ color: white;
 
 
 
-/* MODAL Articulo 01 - FIN */
+/* MODAL default Articulo 01 - FIN */
+
+
+/* Carrousel  default fotos INICIO */
+
+.card__fotos_cont{
+    width: 30%;
+    margin: 5px 0;
+    background-color: #000000b8 !important;
+    color: aliceblue;
+    /* box-sizing: inherit; */
+    transition: 1s ease;
+}
+
+
+.Card__fotos_Carrusel_cont{
+    background-color: #171616;
+    background-image: url(/img/fondo_galeria\ de\ fotos.jpg);
+    background-position: center;
+    
+}
+
+/* Carrousel fotos FIN */
