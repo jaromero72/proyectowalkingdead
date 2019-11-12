@@ -296,6 +296,20 @@ margin-right: 10px;
   
             width:100%;           
           }
+
+/* modal de galeria de fotos inicio*/
+          .G_fotos__Modal__img{
+            width:100%; 
+          }
+          .G_fotos__Modal__cont_img{
+              overflow: hidden;
+              flex-wrap:wrap;
+
+          }
+
+
+/* modal de galeria de fotos Fin */
+
     /* modal escitorio FIN */
 
 /* carrousel galeria de fotos inicio */
