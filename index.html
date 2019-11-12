@@ -12,30 +12,36 @@
 </head>
 
 <body>
-  <!--COMIENDO DEL HEADER-->
+  <!--COMIENZO DEL HEADER-->
   <header>
-    <div class="container">
-      <div class="row align-items-center d-flex">
-        <div class="col d-none d-md-block">
-          <ul class="redes__header">
-            <li><a href="https://www.facebook.com"><img src="img/facebook.png" alt="face" width="26px"
-                  height="26px"></a></li>
-            <li><a href="https://www.youtube.com"><img src="img/youtube.png" alt="" width="26px" height="26px"></a></li>
-            <li><a href="https://twitter.com"><img src="img/twitter.png" alt="" width="26px" height="26px"></a></li>
-            <li><a href="https://www.instagram.com"><img src="img/instagram.png" alt="" width="26px" height="26px"></a>
-            </li>
-          </ul>
+    <div class="header__container">
+      <div class="header__row">
+        <div class="header__col_redes">
+            <ul class="header__col_redes_soc">
+                <li><a class="header__logo_redes_soc" href="https://wwww.facebook.com"><img src="img/facebookblanco32.png" alt=""
+                      width="40px" height="40px"></a></li>
+                <li><a class="header__logo_redes_soc" href="https://www.youtube.com"><img src="img/youtubeblanco32.png" alt=""
+                      width="40px" height="40px"></a></li>
+                <li><a class="header__logo_redes_soc" href="https://twitter.com"><img src="img/twitterblanco32.png" alt=""
+                      width="40px" height="40px"></a></li>
+                <li><a class="header__logo_redes_soc" href="https://instagram.com"><img src="img/instagramblanco32.png" alt=""
+                      width="40px" height="40px"></a></li>
+            </ul>
         </div>
-        <div class="col">
-          <img src="img/base logo twd white.png" alt="">
+        <div class="header__col_logo">
+          <div class="header__col_logotwd">
+            <img src="img/base logo twd white.png" alt="">
+            <h6>by Rolling Code School</h6>
+            </div>
         </div>
-        <div class="col d-none d-md-block">
-          <form class="form-inline">
-            <input class="form__header d-none d-md-block form-control" type="search" placeholder="" aria-label="Search">
-            <button class="d-none d-md-block btn btn-light my-2 btn-outline-warning border-bottom:5px solid tomato"
-              type="submit"><img src="img/magnifying-glass.png" alt=""></button>
+        <div class="header__col_search">
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button type="button" class="btn btn-dark"><img src="img/magnifying-glassw.png"></button>
           </form>
-          <button type="button" class="boton__header btn btn-secondary"><a href="#">Log in</a></button>
+        </div>
+        <div class="header__col_registro">
+           <a href="#" class="btn btn-dark " role="button" aria-pressed="true" target="_blank">INICIAR SESION</a>
         </div>
       </div>
     </div>
@@ -45,7 +51,7 @@
    <!--COMIENZO NAVBAR-->
    <nav class="navbar navbar-expand-lg navbar-light sticky-top container-fluid nav__cont_nav p-0" id="nav">
     <button class="navbar-toggler nav__boton_menu p-1" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="nav__icon"> <img class="nav__icono_menu" src="/img/Nav__Icono_calavera.png" alt=""></span>
+      <span class="nav__icon"> <img class="nav__icono_menu" src="img/Nav__Icono_calavera.png" alt=""></span>
       <!-- navbar-toggler-icon -->
     </button>
     <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
@@ -162,7 +168,7 @@
                   <div class="row justify-content-around align-items-center">
   
                   <div class="card card__noticias_cont">
-                      <img src="/img/Tarjeta_noticia_01.jpeg" class="card-img-top" alt="...">
+                      <img src="img/Tarjeta_noticia_01.jpeg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">The Walking Dead - Juego</h5>
                         <p class="card-text">[Rumor] Un reporte sugiere que Telltale Games no terminará The Walking Dead Final Season.</p>
@@ -174,7 +180,7 @@
 
   
                     <div class="card card__noticias_cont d-none d-md-flex d-xl-flex ">
-                        <img src="/img/Tarjeta_noticia_02.jpg" class="card-img-top" alt="...">
+                        <img src="img/Tarjeta_noticia_02.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">Card title</h5>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -185,7 +191,7 @@
                
   
                   <div class="card card__noticias_cont d-none d-md-flex d-xl-flex">
-                      <img src="/img/Tarjeta_noticia_03.jpeg" class="card-img-top" alt="...">
+                      <img src="img/Tarjeta_noticia_03.jpeg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -194,7 +200,7 @@
                    </div>
   
                    <div class="card card__noticias_cont  d-none d-md-flex d-xl-flex">
-                      <img src="/img/Tarjeta_noticia_04.jpg" class="card-img-top" alt="...">
+                      <img src="img/Tarjeta_noticia_04.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -212,7 +218,7 @@
                 <div class="row justify-content-around align-items-center">
 
                 <div class="card card__noticias_cont">
-                    <img src="/img/Tarjeta_noticia_05.jpg" class="card-img-top" alt="...">
+                    <img src="img/Tarjeta_noticia_05.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -223,7 +229,7 @@
                 
 
                   <div class="card card__noticias_cont d-none d-md-flex d-xl-flex">
-                      <img src="/img/Tarjeta_noticia_06.jpg" class="card-img-top" alt="...">
+                      <img src="img/Tarjeta_noticia_06.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -234,7 +240,7 @@
              
 
                 <div class="card card__noticias_cont  d-none d-md-flex d-xl-flex">
-                    <img src="/img/Tarjeta_noticia_07.jpg" class="card-img-top" alt="...">
+                    <img src="img/Tarjeta_noticia_07.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -243,7 +249,7 @@
                  </div>
 
                  <div class="card card__noticias_cont  d-none d-md-flex d-xl-flex">
-                    <img src="/img/Tarjeta_noticia_08.jpg" class="card-img-top" alt="...">
+                    <img src="img/Tarjeta_noticia_08.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -260,7 +266,7 @@
                   <div class="row justify-content-around align-items-center">
   
                   <div class="card card__noticias_cont">
-                      <img src="/img/Tarjeta_noticia_09.jpg" class="card-img-top" alt="...">
+                      <img src="img/Tarjeta_noticia_09.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -271,7 +277,7 @@
                   
   
                     <div class="card card__noticias_cont  d-none d-md-flex d-xl-flex">
-                        <img src="/img/Tarjeta_noticia_10.gif" class="card-img-top" alt="...">
+                        <img src="img/Tarjeta_noticia_10.gif" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">Card title</h5>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -282,7 +288,7 @@
                
   
                   <div class="card card__noticias_cont  d-none d-md-flex d-xl-flex">
-                      <img src="/img/Tarjeta_noticia_11.jpg" class="card-img-top" alt="...">
+                      <img src="img/Tarjeta_noticia_11.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -291,7 +297,7 @@
                    </div>
   
                    <div class="card card__noticias_cont  d-none d-md-flex d-xl-flex">
-                      <img src="/img/Tarjeta_noticia_12.jpg" class="card-img-top" alt="...">
+                      <img src="img/Tarjeta_noticia_12.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -330,7 +336,7 @@
   
         <div class="modal-body container modal__art01__body">
        
-            <div class="Modal__cont_img_art01 col-12"><img class="Modal__img_art01" src="/img/Noticias_foto_de_Art01.jpg" alt=""></div>
+            <div class="Modal__cont_img_art01 col-12"><img class="Modal__img_art01" src="img/Noticias_foto_de_Art01.jpg" alt=""></div>
           
           <div class="Modal__cont_txt_art01 col-12">
             <p>Hace unas horas compartimos con vosotros la triste noticia de que el popular estudio de videojuegos Telltale Games había comenzado a realizar despidos masivos dentro de la empresa, y posteriormente anunció el cierre definitivo a través de un blog oficial.
@@ -569,10 +575,10 @@
   <div class="row justify-content-center">
     
       <ul class="footer__item_red_social d-flex">
-          <li><a class="footer__Logo_RedSocial" href="https://es-la.facebook.com/"><img class="footer__iconos" src="/img/facebookblanco64.png" alt=""></a></li>
-          <li><a class="footer__Logo_RedSocial" href="https://www.youtube.com/?gl=AR&hl=es-419"><img class="footer__iconos" src="/img/youtubeblanco64.png" alt=""></a></li>
-          <li><a class="footer__Logo_RedSocial" href="https://twitter.com/login?lang=es"><img class=" footer__iconos" src="/img/twitterblanco64.png" alt=""></a></li>
-          <li><a class="footer__Logo_RedSocial" href="#"><img class="footer__iconos" src="/img/instagramblanco64.png" alt=""></a></li>
+          <li><a class="footer__Logo_RedSocial" href="https://es-la.facebook.com"><img class="footer__iconos" src="img/facebookblanco64.png" alt=""></a></li>
+          <li><a class="footer__Logo_RedSocial" href="https://www.youtube.com"><img class="footer__iconos" src="img/youtubeblanco64.png" alt=""></a></li>
+          <li><a class="footer__Logo_RedSocial" href="https://twitter.com"><img class=" footer__iconos" src="img/twitterblanco64.png" alt=""></a></li>
+          <li><a class="footer__Logo_RedSocial" href="#"><img class="footer__iconos" src="img/instagramblanco64.png" alt=""></a></li>
         </ul>
   
   </div>
