@@ -101,8 +101,45 @@ header{
        flex: 25%;
        max-width:25%;
        vertical-align: middle;
-       
+              
    }
+    .header__btn_lupa{
+    background: #0D0A05 !important;
+    color: white !important;
+
+    }
+
+    .header__btn_lupa:hover{
+    background: maroon !important;
+    transition: 0.3s ease;
+
+    }
+
+   .header__btn_login{
+    margin-right: 2%;
+    background: #0D0A05 !important;
+    color: white !important;
+    }
+
+   .header__btn_login:hover{
+    background: maroon !important;
+    transition: 0.3s ease;
+   }
+
+   .header__btn_signup{
+    background: #0D0A05 !important;
+    color: white !important;
+       }
+   .header__btn_signup:hover{
+    background: maroon !important;
+    transition: 0.3s ease;
+   }
+
+ 
+  
+   
+
+
 
    @media screen and (max-width:576px){
        header{        
