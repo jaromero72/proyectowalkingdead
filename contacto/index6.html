@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/estilo6.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>The Walking Dead Contactenos</title>
+</head>
+
+<body>
+  <!--COMIENZO DEL HEADER-->
+  <header>
+    <div class="header__container">
+      <div class="header__row">
+        <div class="header__col_redes">
+            <ul class="header__col_redes_soc">
+                <li><a class="header__logo_redes_soc" href="https://wwww.facebook.com"><img src="../img/facebookblanco32.png" alt=""
+                      width="40px" height="40px"></a></li>
+                <li><a class="header__logo_redes_soc" href="https://www.youtube.com"><img src="../img/youtubeblanco32.png" alt=""
+                      width="40px" height="40px"></a></li>
+                <li><a class="header__logo_redes_soc" href="https://twitter.com"><img src="../img/twitterblanco32.png" alt=""
+                      width="40px" height="40px"></a></li>
+                <li><a class="header__logo_redes_soc" href="https://instagram.com"><img src="../img/instagramblanco32.png" alt=""
+                      width="40px" height="40px"></a></li>
+            </ul>
+        </div>
+        <div class="header__col_logo">
+          <div class="header__col_logotwd">
+            <img src="../img/base logo twd white.png" alt="">
+            <h6>by Rolling Code School</h6>
+            </div>
+        </div>
+        <div class="header__col_search">
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button type="button" class="btn header__btn_lupa"><img src="../img/magnifying-glassw.png"></button>
+          </form>
+        </div>
+
+        <div class="header__col_registro">
+          <button type="button" class="btn header__btn_login" data-toggle="modal" data-target="#header__modal_login">
+            LOG IN
+          </button>
+          <button type="button" class="btn header__btn_signup" data-toggle="modal" data-target="#header__modal_signup">
+            SIGN UP
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--FIN DEL HEADER-->
+  <!-- modal__formlogin_inicio-->
+  <!-- Modal -->
+<div class="modal fade" id="header__modal_login" tabindex="-1" role="dialog" aria-labelledby="header__modal_loginLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="header__modal_loginLabel">INICIAR SESION</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">CERRAR</button>
+        <button type="button" class="btn btn-primary">INICIO</button>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- modal__formlogin_fin -->
+  <!-- modal__formsignup_inicio-->
+  <!-- Modal -->
+<div class="modal fade" id="header__modal_signup" tabindex="-1" role="dialog" aria-labelledby="header__modal_signupLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="header__modal_signupLabel">REGISTRARSE</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Confirm Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirm Password">
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">I accept the Terms of Use & Privacy Policy.</label>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">CERRAR</button>
+        <button type="button" class="btn btn-primary">REGISTRARSE</button>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- modal__formsignup_fin -->
+  <!-- inicio form contactenos -->
+  <div class="body_contac">
+  <div class="content">
+    <audio src="/audio/audio.ogg" autoplay loop></audio>
+    
+    <h1 class="logo">Contáctenos</h1>
+
+    <div class="contact-wrapper animated bounceInUp">
+        <div class="contact-form">
+            <h3>Envie su Mensaje</h3>
+            <form action="">
+                <p>
+                    <label>Nombre y Apellido</label>
+                    <input type="text" name="fullname">
+                </p>
+                <p>
+                    <label>Email </label>
+                    <input type="email" name="email">
+                </p>
+                <p>
+                    <label>Teléfono</label>
+                    <input type="tel" name="phone">
+                </p>
+                <p>
+                    <label>Celular</label>
+                    <input type="tel" name="cel phone">
+                </p>
+                <p class="block">
+                   <label>Mensaje</label> 
+                    <textarea name="message" rows="3"></textarea>
+                </p>
+                <h6 class="block">Gracias por su contacto, en breve nos comunicaremos.</h6>
+
+                <p class="block">
+                    <button>
+                        Enviar
+                    </button>
+                </p>
+            </form>
+        </div>
+        <div class="contact-info">
+            <h3>Quienes Somos</h3>
+            <p class="titulo">"The Walking Dead Creators"</p>
+              <p>G.Cano-F.Galup-A.Romero</p>
+               <p>Comisión-1C </p>
+            <ul>
+                <li><i class="fas fa-map-marker-alt"></i> Bv. 9 de Julio -YB</li>
+                <li><i class="fas fa-phone"></i> (381) 111 111 111</li>
+                <li><i class="fas fa-envelope-open-text"></i> contact@website.com</li>
+            </ul>
+            <p>Rolling Code School 2019-2020</p>
+        </div>
+    </div>
+  </div>
+</div>
+<!-- fin del formulario -->
+
+  <!-- inicio Footer -->
+<footer class="container-fluid footer__cont">
+<div class="container">
+
+  <div class="row justify-content-center"> <h6 class="footer__titulo p-1">FOLLOW WEALKING DEAD: </h6></div>
+  <div class="row justify-content-center">
+    
+      <ul class="footer__item_red_social d-flex">
+          <li><a class="footer__Logo_RedSocial" href="https://es-la.facebook.com"><img class="footer__iconos" src=" ../img/facebookblanco64.png" alt=""></a></li>
+          <li><a class="footer__Logo_RedSocial" href="https://www.youtube.com"><img class="footer__iconos" src="../img/youtubeblanco64.png" alt=""></a></li>
+          <li><a class="footer__Logo_RedSocial" href="https://twitter.com"><img class=" footer__iconos" src="../img/twitterblanco64.png" alt=""></a></li>
+          <li><a class="footer__Logo_RedSocial" href="#"><img class="footer__iconos" src="../img/instagramblanco64.png" alt=""></a></li>
+        </ul>
+  
+  </div>
+
+  <div class="row justify-content-center footer__text_legales"> <span>TM & © Lucasfilm Ltd. All Rights Reserved</span></div>
+  <div class="row justify-content-center">
+<ul class=" row p-0 m-0 footer__lista justify-content-center">
+
+  <li class="footer_cont_opc"><a class="footer_link_opc" href='#'>Privacy Policy</a></li>
+  <li class="footer_cont_opc"><a class="footer_link_opc" href='#'>Children’s Online Privacy Policy</a></li>
+  <li class="footer_cont_opc"><a class="footer_link_opc" href='#'>Your California Privacy Rights</a></li>
+  <li class="footer_cont_opc"><a class="footer_link_opc" href='#'>Walking Dead at shop</a></li>
+  <li class="footer_cont_opc"><a class="footer_link_opc" href='#'>Walking Dead Helpdesk</a></li>
+  <li class="footer_cont_opc border-right-0"><a class="footer_link_opc" href='#'>Interest-Based Ads</a></li>
+</ul>
+
+  </div>
+</div>
+</footer>
+    <!-- Fin footer -->
+<!-- JavaScript -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
