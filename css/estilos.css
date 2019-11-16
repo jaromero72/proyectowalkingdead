@@ -788,3 +788,27 @@ color: white;
 }
 
 /* Carrousel fotos FIN */
+
+/* Inicio carrusel galeria de videos*/
+
+
+
+.tarjeta__videos_cont{
+    
+    margin: auto;
+    background: black;
+    transition: 10s ease;
+
+    
+}
+
+
+.galeria_videos{
+    width: 100%;
+    position: relative;
+    background-image: url(/img/fondo_Noticias01.jpg);
+    background-size: cover;
+    
+}
+
+/* Fin carrusel galeria de videos*/
