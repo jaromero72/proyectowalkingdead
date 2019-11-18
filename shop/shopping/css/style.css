@@ -1,0 +1,27 @@
+.mobile {
+    display: none;
+}
+
+.desktop {
+    margin-bottom: 10px;
+}
+
+.mobile {
+    margin-bottom: 5px;
+}
+
+.desktop img,
+.mobile img {
+    width: 100%;
+}
+
+/* Portrait and Landscape */
+@media only screen and (max-width: 414px) {
+    .mobile {
+        display: block !important
+    }
+
+    .desktop {
+        display: none;
+    }
+}
