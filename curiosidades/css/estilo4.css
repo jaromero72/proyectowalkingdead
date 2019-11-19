@@ -789,17 +789,14 @@ color: white;
 /* Inicio seccion curiosidades */
 
 .curiosidades{
-    background-image: url(/img/twd2.jpg);
+    background-image: url(/curiosidades/img/zombi7.jpg);
     background-position: center;
     width: 100%;
     display: flex;
     justify-content: center;
     margin: auto;
 }
-.modal__fondo{
-    background-image: url(/img/Tarjeta_noticia_04.jpg);
     
-}
 
 .card__contenedor{
     width: 330px;
@@ -836,22 +833,19 @@ font-weight: 300;
 .card__cuerpo{
     background:teal;
 }
-.titulo__sect__curiosidad{
-
-    background: transparent;
-    color:white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    
-    
-    }
-    
-    
-    .titulo__sect__texto{
-        font-size: 2rem !important;
-        margin: 0 !important;
-        background: #0000009e;
-    }
+.modal__foto{
+    background-image: url(/curiosidades/img/zombi14.jpg);
+    background-position: center;
+}
+.modal__foto1{
+    background-image: url(/curiosidades/img/zombi9.jpeg);
+    background-position:center;
+}
+.modal__foto2{
+    background-image: url(/curiosidades/img/zombi15.jpg);
+    background-position: center;
+}
+.modal__parrafo{
+    color:whitesmoke;
+}
 /* Fin seccion curiosidades */
