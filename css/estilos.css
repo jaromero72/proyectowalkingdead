@@ -162,6 +162,7 @@ header{
        .header__col_registro{
         display: none;
     }
+
    }
    @media only screen and (max-width: 992px) and (min-width: 576px){
      header{        
@@ -298,6 +299,11 @@ margin-right: 10px;
 
 /* CSS ESCRITORIO INICIO */
 @media screen and (min-width:576px){
+
+    .Gvideo_cont_{
+      
+       padding: 0% !important;
+    }
 
 /* Nav en escritorios inicio*/
 
@@ -494,6 +500,15 @@ color: blanchedalmond;
 
 }
 
+.card__fotos_cont{
+    width: 30%;
+    margin: 5px 0;
+    background-color: #000000b8 !important;
+    color: aliceblue;
+    /* box-sizing: inherit; */
+    transition: 1s ease;
+}
+
 }
 
 /* CSS ESCRITORIO FIN */
@@ -573,11 +588,32 @@ color: white;
 /* CSS MOVIL INICIO*/
 @media screen and (max-width:576px){
 
+    .G_fotos__Modal__img{
+width: 100%;
+    }
+    .G_fotos__Modal__img_cont{
+width: 80%;
+    }
+
+.Gvideo_cont_{
+    margin: 1px auto;
+    padding: 0% !important;
+}
+
+
+
 /* nav en movil inicio */
     .nav__cont_nav{
         background-color: #0D0A05;
         border-top: 1px solid #ffffff1f; 
        
+    }
+
+    .card__fotos_cont{
+        width: 100%;
+        margin: 5px 0;
+        background-color: #000000b8 !important;
+        color: aliceblue;
     }
 
 /* nav en movil fin */
@@ -632,6 +668,8 @@ color: white;
 
 /* footer en movil fin */
         
+
+
 
       
         
@@ -770,14 +808,7 @@ color: white;
 
 /* Carrousel  default fotos INICIO */
 
-.card__fotos_cont{
-    width: 30%;
-    margin: 5px 0;
-    background-color: #000000b8 !important;
-    color: aliceblue;
-    /* box-sizing: inherit; */
-    transition: 1s ease;
-}
+
 
 
 .Card__fotos_Carrusel_cont{
@@ -800,12 +831,12 @@ color: white;
     
 }
 
-
 .galeria_videos{
     width: 100%;
     position: relative;
     background-image: url(/img/fondo_Noticias01.jpg);
     background-size: cover;
+    padding: 20px !important;
     
 }
 

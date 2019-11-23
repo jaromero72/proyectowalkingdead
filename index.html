@@ -12,6 +12,7 @@
 </head>
 
 <body>
+  <audio src="/audio/audio.ogg" autoplay></audio>
   <!--COMIENZO DEL HEADER-->
   <header>
     <div class="header__container">
@@ -146,30 +147,30 @@
 
         <li class="nav-item" data-toggle="collapse" data-target="#navbarNav">
 
-          <a class="nav__items" href="#nav" >HOME</a>
+          <a class="nav__items" href="#section1" >HOME</a>
         </li>
 
-        <li class="nav-item">
-          <a class="nav__items" href="#">Galeria de Videos</a>
+        <li class="nav-item" data-toggle="collapse" data-target="#navbarNav">
+          <a class="nav__items" href="#section__G_videos">Galeria de Videos</a>
         </li>
 
-        <li class="nav-item">
-          <a class="nav__items" href="#">Galeria de Fotos</a>
+        <li class="nav-item" data-toggle="collapse" data-target="#navbarNav" >
+          <a class="nav__items" href="#carousel__G_fotos">Galeria de Fotos</a>
         </li>
 
         <li class="nav-item" data-toggle="collapse" data-target="#navbarNav">
           <a class="nav__items" href="#carousel__noticias">Noticias</a>
         </li>
 
-        <li class="nav-item">
+        <li class="nav-item" data-toggle="collapse" data-target="#navbarNav">
           <a class="nav__items" href="/curiosidades/index4.html" target="_blank">Curiosidades</a>
         </li>
 
-        <li class="nav-item">
+        <li class="nav-item" data-toggle="collapse" data-target="#navbarNav">
           <a class="nav__items" href="/venta/index5.html"target="_blank">Shop</a>
         </li>
 
-        <li class="nav-item">
+        <li class="nav-item" data-toggle="collapse" data-target="#navbarNav">
           <a class="nav__items" href="/contacto/index6.html"target="_blank">Contáctenos</a>
         </li>
       </ul>
@@ -502,7 +503,7 @@
                 <div class="container">
                   <div class="row justify-content-center  align-items-center">
   
-                    <div class="card card__fotos_cont  d-none d-md-flex d-xl-flex">
+                    <div class="card card__fotos_cont">
                       <a href="#" class="card__foto"> <img src="/img/galeria_de_fotos_card04.png" class="card-img-top" alt="...">
                         <div class="card-body text-center">
                           <h5 class="G_fotos__title_foto">Card title</h5>
@@ -543,7 +544,7 @@
                 <div class="container">
                     <div class="row justify-content-center  align-items-center">
     
-                      <div class="card card__fotos_cont  d-none d-md-flex d-xl-flex">
+                      <div class="card card__fotos_cont">
                         <a href="#" class="card__foto"> <img src="/img/galeria_de_fotos_card07.jpg" class="card-img-top" alt="...">
                           <div class="card-body text-center">
                             <h5 class="G_fotos__title_foto">Card title</h5>
@@ -648,7 +649,7 @@
 
 <!-- Modal Galeria de fotos FIN -->
 <!--INICIO GALERIA DE VIDEOS-->
-<div class="container-fluid galeria_videos p-0">
+<div class="container-fluid galeria_videos" id="section__G_videos">
     <div class="title_section__cont"><h2 class="title_section__text">GALERIA DE VIDEOS </h2></div>
   <div class="row">
     <div class="col-sm-12">
@@ -657,19 +658,19 @@
               <div class="carousel-item active ">
                 <div class="container">
                       <div class="row">
-                        <div class="col-sm-12 col-lg-4">
+                        <div class="col-sm-12 col-lg-4 Gvideo_cont_">
                           <div class="card tarjeta__videos_cont embed-responsive embed-responsive-16by9">
                               <iframe class="embed-responsive-item" class="video__frame" src="https://www.youtube.com/embed/J-AbDc8tq10" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                           </div>
 
                         </div>
-                        <div class="col-sm-12 col-lg-4">
+                        <div class="col-sm-12 col-lg-4 Gvideo_cont_">
                             <div class="card tarjeta__videos_cont embed-responsive embed-responsive-16by9">
                                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sfAc2U20uyg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
   
                           </div>
-                          <div class="col-sm-12 col-lg-4">
+                          <div class="col-sm-12 col-lg-4 Gvideo_cont_">
                               <div class="card tarjeta__videos_cont embed-responsive embed-responsive-16by9">
                                   <iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/Q1Wu53XKmYw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                               </div>
@@ -683,19 +684,19 @@
               <div class="carousel-item">
                   <div class="container">
                         <div class="row">
-                          <div class="col-sm-12 col-lg-4">
+                          <div class="col-sm-12 col-lg-4 Gvideo_cont_">
                             <div class="card tarjeta__videos_cont embed-responsive embed-responsive-16by9">
                                 <iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/VhB6NYPo2Sw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
   
                           </div>
-                          <div class="col-sm-12 col-lg-4">
+                          <div class="col-sm-12 col-lg-4 Gvideo_cont_">
                               <div class="card tarjeta__videos_cont embed-responsive embed-responsive-16by9">
                                   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Y0mR4Ojzkug" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                               </div>
     
                             </div>
-                            <div class="col-sm-12 col-lg-4">
+                            <div class="col-sm-12 col-lg-4 Gvideo_cont_">
                                 <div class="card tarjeta__videos_cont embed-responsive embed-responsive-16by9">
                                     <iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/QlqF2kxyYVg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 </div>
